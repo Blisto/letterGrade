@@ -24,6 +24,7 @@ public class letter_Grade {
 		Scanner scanner = new Scanner(System.in);
 		System.out.printf("Input Score:");
 		System.out.printf("Grade:"+letterGrade(scanner.nextInt()));
+
 	}
 
 }
