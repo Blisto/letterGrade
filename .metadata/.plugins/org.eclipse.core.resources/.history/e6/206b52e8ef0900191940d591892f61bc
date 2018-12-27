@@ -1,0 +1,29 @@
+package letterGrade;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class letter_GradeTest {
+	private letter_Grade letter_GradeChecker;
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		letter_GradeChecker=new letter_Grade;
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		
+		
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,146 @@
+package letterGrade;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class letter_GradeTest {
+	private letter_Grade letter_GradeChecker;
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		letter_GradeChecker=new letter_Grade();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void TC1() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(101));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC2() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(100));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC3() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(50));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC4() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(0));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC5() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(-1));
+		//fail("Not yet implemented");
+	}
+
+	
+	
+	
+	@Test
+	public void TC6() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(101));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC7() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(100));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC8() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(95));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC9() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(90));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC10() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(89));
+		//fail("Not yet implemented");
+	}
+	
+	
+	
+	@Test
+	public void TC11() {
+		Assert.assertEquals('B', letter_GradeChecker.letterGrade(91));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC12() {
+		Assert.assertEquals('B', letter_GradeChecker.letterGrade(90));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC13() {
+		Assert.assertEquals('B', letter_GradeChecker.letterGrade(85));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC14() {
+		Assert.assertEquals('B', letter_GradeChecker.letterGrade(80));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC15() {
+		Assert.assertEquals('B', letter_GradeChecker.letterGrade(79));
+		//fail("Not yet implemented");
+	}
+	
+	
+	
+	@Test
+	public void TC16() {
+		Assert.assertEquals('C', letter_GradeChecker.letterGrade(81));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC17() {
+		Assert.assertEquals('C', letter_GradeChecker.letterGrade(80));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC18() {
+		Assert.assertEquals('C', letter_GradeChecker.letterGrade(75));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC19() {
+		Assert.assertEquals('C', letter_GradeChecker.letterGrade(70));
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void TC23() {
+		Assert.assertEquals('D', letter_GradeChecker.letterGrade(65));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC24() {
+		Assert.assertEquals('D', letter_GradeChecker.letterGrade(60));
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void TC27() {
+		Assert.assertEquals('F', letter_GradeChecker.letterGrade(59));
+		//fail("Not yet implemented");
+	}
+}

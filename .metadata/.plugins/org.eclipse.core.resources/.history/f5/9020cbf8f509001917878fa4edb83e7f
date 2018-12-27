@@ -1,0 +1,60 @@
+package letterGrade;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class letter_GradeTest {
+	private letter_Grade letter_GradeChecker;
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		letter_GradeChecker=new letter_Grade();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void TC1() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(101));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC2() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(50));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC3() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(-1));
+		//fail("Not yet implemented");
+	}
+
+	@Test
+	public void TC4() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(100));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC5() {
+		Assert.assertEquals('A', letter_GradeChecker.letterGrade(-1));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC6() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(-1));
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void TC7() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(-1));
+		//fail("Not yet implemented");
+	}
+}
