@@ -24,62 +24,88 @@ public class letter_GradeTest {
 	
 	
 	@Test
-	public void TC1() {
+	public void TCS101() {
 		Assert.assertEquals('X', letter_GradeChecker.letterGrade(101));
 	}
-
+	
 	@Test
-	public void TC2() {
-		Assert.assertEquals('X', letter_GradeChecker.letterGrade(-1));
-	}
-
-	@Test
-	public void TC3() {
+	public void TCS100() {
 		Assert.assertEquals('A', letter_GradeChecker.letterGrade(100));
 	}
 	
 	@Test
-	public void TC4() {
+	public void TCS95() {
 		Assert.assertEquals('A', letter_GradeChecker.letterGrade(95));
 	}
 	
 	@Test
-	public void TC5() {
+	public void TCS90() {
 		Assert.assertEquals('A', letter_GradeChecker.letterGrade(90));
 	}
-
+	
 	@Test
-	public void TC6() {
+	public void TCS89() {
+		Assert.assertEquals('B', letter_GradeChecker.letterGrade(89));
+	}
+	
+	@Test
+	public void TCS85() {
 		Assert.assertEquals('B', letter_GradeChecker.letterGrade(85));
 	}
 	
 	@Test
-	public void TC7() {
+	public void TCS80() {
 		Assert.assertEquals('B', letter_GradeChecker.letterGrade(80));
+	}
+	
+	@Test
+	public void TCS79() {
+		Assert.assertEquals('C', letter_GradeChecker.letterGrade(79));
 	}
 
 	@Test
-	public void TC8() {
+	public void TCS75() {
 		Assert.assertEquals('C', letter_GradeChecker.letterGrade(75));
 	}
 	
 	@Test
-	public void TC9() {
+	public void TCS70() {
 		Assert.assertEquals('C', letter_GradeChecker.letterGrade(70));
+	}
+	
+	@Test
+	public void TCS69() {
+		Assert.assertEquals('D', letter_GradeChecker.letterGrade(69));
 	}
 
 	@Test
-	public void TC10() {
+	public void TCS65() {
 		Assert.assertEquals('D', letter_GradeChecker.letterGrade(65));
 	}
 	
 	@Test
-	public void TC11() {
+	public void TCS60() {
 		Assert.assertEquals('D', letter_GradeChecker.letterGrade(60));
 	}
-
+	
 	@Test
-	public void TC12() {
+	public void TCS59() {
 		Assert.assertEquals('F', letter_GradeChecker.letterGrade(59));
 	}
+	
+	@Test
+	public void TCS30() {
+		Assert.assertEquals('F', letter_GradeChecker.letterGrade(30));
+	}
+	
+	@Test
+	public void TCS0() {
+		Assert.assertEquals('F', letter_GradeChecker.letterGrade(0));
+	}
+	
+	@Test
+	public void TCS_1() {
+		Assert.assertEquals('X', letter_GradeChecker.letterGrade(-1));
+	}
+	
 }

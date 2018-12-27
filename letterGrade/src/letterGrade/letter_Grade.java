@@ -1,4 +1,5 @@
 package letterGrade;
+import java.util.Scanner;
 
 public class letter_Grade {
 	public static char letterGrade(int score) {
@@ -18,6 +19,12 @@ public class letter_Grade {
 		return grade;
 		}
 	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.printf("Input Score:");
+		System.out.printf("Grade:"+letterGrade(scanner.nextInt()));
 
+	}
 
 }
