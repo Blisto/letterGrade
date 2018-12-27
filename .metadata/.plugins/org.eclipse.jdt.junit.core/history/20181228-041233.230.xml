@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="letter_GradeTest" project="letterGrade" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="letterGrade.letter_GradeTest" time="0.001">
+    <testcase name="TCS101" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS59" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS65" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS69" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS75" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS79" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS85" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS89" classname="letterGrade.letter_GradeTest" time="0.0"/>
+    <testcase name="TCS95" classname="letterGrade.letter_GradeTest" time="0.0"/>
+  </testsuite>
+</testrun>
